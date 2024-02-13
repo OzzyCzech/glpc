@@ -32,7 +32,7 @@ glpc -t <token> -p <project_id> --gitlab https://gitlab.com --days 365
 ## Installation
 
 ```bash
-npm install -g glpc
+npm install -g gitlab-pipeline-cleaner
 ```
 
 ## License
