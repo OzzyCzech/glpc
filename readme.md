@@ -9,8 +9,9 @@ GitLab pipeline cleaner
 
 Options:
   -v, --version              output the current version
+  -d, --debug                Output extra debugging
   -g, --gitlab <string>      GitLab URL (default: "https://gitlab.com")
-  -d, --days <number>        Number of days to keep (default: 365)
+  --days <number>            Number of days to keep (default: 365)
   --updated_after <number>   Pipelines updated after the specified date (ISO 8601)
   --updated_before <number>  Pipelines updated before the specified date (ISO 8601)
   status                     Status of the pipelines (choices: "created", "waiting_for_resource", "preparing", "pending", "running", "success", "failed", "canceled", "skipped",
