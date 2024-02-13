@@ -46,7 +46,7 @@ if (options.days) {
 }
 
 try {
-  log(chalk.green(` 🗑 GitLab - Delete old pipelines`));
+  log(chalk.green(`GitLab - Delete old pipelines`));
 
   if (options.debug) {
     log(chalk.gray(`GitLab URL: ${options.gitlab}`));
